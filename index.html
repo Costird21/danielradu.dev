@@ -973,7 +973,7 @@
 
       <div class="eyebrow-row">
         <span class="pulse" aria-hidden="true"></span>
-        <span class="eyebrow-text">Available for engineering contracts and full-time roles</span>
+        <span class="eyebrow-text">Open to backend / full-stack engineering internships and graduate roles. UK / EU / Remote.</span>
       </div>
 
       <h1 class="name" id="name">
@@ -982,11 +982,11 @@
       </h1>
 
       <p class="tagline" id="tagline">
-        Software engineer<span class="dot">·</span>AI-native builder<span class="dot">·</span><span class="role-mid">Solo founder</span>
+        CS Finalist @ Kent<span class="dot">·</span>Java &amp; PHP<span class="dot">·</span><span class="role-mid">Founder, TradeWolk</span>
       </p>
 
       <p class="subhead">
-        Currently shipping <strong>TradeWolk</strong> solo — native iOS, Python backend, distributed VPS infrastructure. Available for engineering contracts and full-time roles.
+        Currently building <strong>TradeWolk</strong> — a native iOS trading journal for prop-firm traders. Lead product and architecture, implementing across the stack using AI development tools (Claude Code, Cursor, Codex).
       </p>
 
       <div class="ctas">
@@ -1039,7 +1039,7 @@
           TradeWolk gives prop-firm and retail traders a native iOS app for journaling trades, tracking accounts, and getting AI-powered coaching on their performance. Connects directly to MetaTrader 5 — no copy-paste, no manual entry, no spreadsheets.
         </p>
         <p>
-          Built solo, end-to-end: SwiftUI client, Python/FastAPI backend, <strong>self-hosted MT5 infrastructure</strong> on Windows VPS, and an AI Coach using Anthropic Claude with tool-use.
+          Lead product, architecture, and go-to-market as solo founder; implement across the stack using AI development tools (Claude Code, Cursor, Codex). The most interesting engineering decision — <strong>self-hosting the MT5 layer</strong> — is written up in the case study below.
         </p>
         <p>
           Engineering decisions are made with cost and business reasoning attached — running the MT5 layer in-house cuts per-account infrastructure cost by ~90% vs. commercial alternatives, which is what makes a sustainable free-trial tier viable in the first place.
@@ -1068,10 +1068,8 @@
       </div>
 
       <ul class="stacklist reveal" data-reveal aria-label="Technology stack">
-        <li>SwiftUI</li><li>Python</li><li>FastAPI</li><li>PostgreSQL (Supabase)</li>
+        <li>SwiftUI</li><li>Python</li><li>FastAPI</li><li>PostgreSQL</li>
         <li>Anthropic Claude API</li><li>Linux + Windows VPS</li><li>MetaTrader 5</li>
-        <li>nginx</li><li>StoreKit 2</li><li>RevenueCat</li><li>Prometheus</li>
-        <li>Grafana</li><li>PostHog</li>
       </ul>
 
       <div class="work-ctas reveal" data-reveal>
@@ -1114,10 +1112,10 @@
 
       <div class="study-hook reveal" data-reveal>
         <p>
-          TradeWolk needs to read MetaTrader 5 account data on behalf of its users. The obvious answer is MetaAPI — a managed cloud service that gets you to "shipped" in a weekend at roughly $10 per connected account per month. I built my own MT5 layer instead. It currently runs ~50 accounts on a single Windows VPS for ~$50/month total.
+          TradeWolk needs to read MetaTrader 5 account data on behalf of its users. The obvious answer is MetaAPI — a managed cloud service that gets you to "shipped" in a weekend, billed per connected account per month. I built my own MT5 layer instead. It currently runs ~50 accounts on a single Windows VPS at a flat monthly cost.
         </p>
         <p>
-          The constraint that broke the MetaAPI path wasn't the absolute number — it was the free-trial population. Without a free trial, conversion drops in the prop-firm trader market. With a free trial on MetaAPI, every signup costs ~$10/month from day one whether or not they convert. At any reasonable churn rate, you lose money on every uncommitted user.
+          The constraint that broke the MetaAPI path wasn't the absolute cost — it was the free-trial population. Without a free trial, conversion drops in the prop-firm trader market. With a free trial on MetaAPI, every signup carries a per-account cost from day one whether or not they convert. At any reasonable churn rate, you lose money on every uncommitted user.
         </p>
         <p>
           So I went looking for a cheaper layer. There isn't one off-the-shelf. This post is the why, the how, and what's broken so far.
@@ -1175,7 +1173,7 @@
           I came to building software through trying to build my own products. A mobile car detailing business. An email copywriting service for finance creators. Both bootstrapped, neither made meaningful money, both taught me more about constraints than any course. I started <strong>TradeWolk</strong> in March 2026 — two years of trading prop-firm accounts had given me a clear view of what was missing from the tooling — and discovered that shipping production software solo, end-to-end, was the work I'd been looking for. I've funded the degree and TradeWolk's early infrastructure by driving a taxi in Deal, UK in parallel with full-time study.
         </p>
         <p class="about-close">
-          I work AI-natively — Claude Code, Cursor, Codex — not as a gimmick, as the core of how I actually move. If you're hiring or have a contract that needs end-to-end ownership rather than headcount, I'm available.
+          I work AI-natively — Claude Code, Cursor, Codex — not as a gimmick, as the core of how I actually move. Open to backend / full-stack engineering internships and graduate roles. UK / EU / Remote.
         </p>
       </div>
 
@@ -1196,10 +1194,10 @@
       <article class="proj-card reveal" data-reveal>
         <header class="proj-head">
           <h3 class="proj-name">Taxi Booking SaaS</h3>
-          <span class="proj-meta">University Project · 2024</span>
+          <span class="proj-meta">University Project · Dec 2025 – Jun 2026</span>
         </header>
         <p class="proj-desc">
-          Multi-tenant web platform for taxi companies to manage bookings, drivers, and customers. Designed the tenant-isolation data model and role-based access for operator / dispatcher / driver / customer flows.
+          Multi-role taxi dispatch platform — customer booking, controller dispatcher console, and in-cab driver flows on a single CodeIgniter 4 / MySQL stack. Team Leader &amp; Backend Developer (team of 4); personally built backend, schema design, and the controller dispatcher console.
         </p>
         <ul class="proj-stack" aria-label="Stack">
           <li>PHP 8</li><li>CodeIgniter 4</li><li>MySQL</li><li>Composer</li><li>PHPUnit</li>
@@ -1210,7 +1208,7 @@
       </article>
 
       <p class="other-also reveal" data-reveal>
-        Also: GP Appointment Management System (university group project, Java/Swing/MySQL). Earlier work in Minecraft plugins (Bukkit/Paper).
+        Also: earlier work in Minecraft plugins (Bukkit/Paper).
       </p>
 
     </div>
@@ -1228,8 +1226,8 @@
       <h2 class="contact-title reveal" data-reveal>Get in touch</h2>
 
       <div class="contact-body reveal" data-reveal>
-        <p>Available for engineering contracts and full-time roles.</p>
-        <p>UK / EU / Remote. I aim to reply within 24 hours.</p>
+        <p>Open to backend / full-stack engineering internships and graduate roles. UK / EU / Remote.</p>
+        <p>I aim to reply within 24 hours.</p>
       </div>
 
       <ul class="contact-grid" aria-label="Contact methods">
